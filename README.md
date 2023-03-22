@@ -13,7 +13,7 @@ This can help streamline development and maintenance processes, reduce the risk 
 - **[TF2Item DB](https://forums.alliedmods.net/showthread.php?t=255885)** - **[(Updated DB)](https://forums.alliedmods.net/showpost.php?p=2794711&postcount=176)**
 - **[TF2Attributes](https://forums.alliedmods.net/showthread.php?t=210221)**
 - **[SteamTools](https://forums.alliedmods.net/showthread.php?t=170630)**
-- **[SteamWorks](https://forums.alliedmods.net/showthread.php?t=229556)**
+- **[SteamWorks](https://forums.alliedmods.net/showthread.php?t=229556)** - **[(Windows build)](https://github.com/hexa-core-eu/SteamWorks/releases)**
 - **[Simple Chat Processor REDUX](https://forums.alliedmods.net/showthread.php?p=1820365)** - **[(Fix)](https://forums.alliedmods.net/showpost.php?p=2629088&postcount=413)**
 - **[Custom Chat Color](https://forums.alliedmods.net/showthread.php?t=186695)**
 - **[Add Observer Point](https://forums.alliedmods.net/showthread.php?t=81609)**
