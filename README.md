@@ -6,6 +6,7 @@ This can help streamline development and maintenance processes, reduce the risk 
 
 # Plugins/Extension
 
+- **[TF2Utils](https://forums.alliedmods.net/showthread.php?t=338773)**
 - **[TF2Items](https://forums.alliedmods.net/showthread.php?t=115100)**
 - **[TF2Items - Give Weapon](https://forums.alliedmods.net/showthread.php?t=141962)**
 - **[TF2Items - Extended Stocks](https://forums.alliedmods.net/showthread.php?t=255743)**
