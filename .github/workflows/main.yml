@@ -17,8 +17,8 @@ jobs:
       id: tag
       with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          tag_prefix: 'v1.1'
-          default_bump: 'patch'
+          tag_prefix: 'v'
+          default_bump: 'major'
           create_annotated_tag: true
           fetch_all_tags: false
     - name: Packing linux
