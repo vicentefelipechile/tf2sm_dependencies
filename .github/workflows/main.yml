@@ -7,6 +7,8 @@ on:
 jobs:
   packing:
     runs-on: ubuntu-latest
+    permissions: write-all
+    name: Packing all files
     steps:
     - name: Checkout
       uses: actions/checkout@v2
