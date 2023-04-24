@@ -20,6 +20,8 @@ jobs:
           default_bump: 'minor'
           create_annotated_tag: true
           fetch_all_tags: false
+    - name: Listing all files
+      run: ls -gh
     - name: Packing linux
       run: zip -r tf2sm_dependencies_linux.zip linux/addons/sourcemods
     - name: Packing windows
