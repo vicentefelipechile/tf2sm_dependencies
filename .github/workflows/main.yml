@@ -21,11 +21,11 @@ jobs:
           create_annotated_tag: true
           fetch_all_tags: false
     - name: Listing all files
-      run: ls -gh
+      run: ls -gh && cd linux/addons && zip -r tf2sm_dependencies_linux.zip sourcemod && mv tf2sm_dependencies_linux.zip ./../..
     - name: Packing linux
-      run: zip tf2sm_dependencies_linux.zip ./linux/addons/sourcemods
+      run: zip -r tf2sm_dependencies_linux.zip ./linux/addons/sourcemods
     - name: Packing windows
-      run: zip tf2sm_dependencies_windows.zip ./windows/addons/sourcemods
+      run: zip -r tf2sm_dependencies_windows.zip ./windows/addons/sourcemods
     
     - name: Publicar versión
       id: publicar
