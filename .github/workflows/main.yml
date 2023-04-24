@@ -20,12 +20,12 @@ jobs:
           default_bump: 'minor'
           create_annotated_tag: true
           fetch_all_tags: false
-    - name: Listing all files
-      run: ls -gh && cd linux/addons && zip -r tf2sm_dependencies_linux.zip sourcemod && mv tf2sm_dependencies_linux.zip ./../..
     - name: Packing linux
-      run: zip -r tf2sm_dependencies_linux.zip ./linux/addons/sourcemods
-    - name: Packing windows
-      run: zip -r tf2sm_dependencies_windows.zip ./windows/addons/sourcemods
+      run: cd linux/addons && zip -r tf2sm_dependencies_linux.zip sourcemod && mv tf2sm_dependencies_linux.zip ./../.. && cd ../..
+    - name: Packing linux
+      run: cd windows/addons && zip -r tf2sm_dependencies_windows.zip sourcemod && mv tf2sm_dependencies_windows.zip ./../.. && cd ../..
+    - name: Listing all files
+      run: ls -gh
     
     - name: Publicar versión
       id: publicar
