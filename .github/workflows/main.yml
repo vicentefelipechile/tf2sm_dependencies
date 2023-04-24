@@ -1,0 +1,52 @@
+name: Packing files
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  packing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Incrementar versión
+      uses: mathieudutour/github-tag-action@v7.1.1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        tag_prefix: 'v'
+        only_major_minor: true
+    - name: Packing linux
+      run: zip -r tf2sm_dependencies_linux.zip linux/addons/sourcemods
+    - name: Packing windows
+      run: zip -r tf2sm_dependencies_windows.zip linux/addons/sourcemods
+    
+    - name: Publicar versión
+      id: publicar
+      uses: actions/create-release@v1.0.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v${{ env.npm_package_version }}
+        release_name: Versión ${{ env.npm_package_version }}
+        body: Descripción de la versión
+        draft: false
+        prerelease: false
+    - name: Subir archivo Linux
+      uses: actions/upload-release-asset@v1.0.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.publicar.outputs.upload_url }}
+        asset_path: ./tf2sm_dependencies_linux.zip
+        asset_name: tf2sm_dependencies_linux.zip
+        asset_content_type: application/zip
+    - name: Subir archivo Windows
+      uses: actions/upload-release-asset@v1.0.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.publicar.outputs.upload_url }}
+        asset_path: ./tf2sm_dependencies_windows.zip
+        asset_name: tf2sm_dependencies_windows.zip
+        asset_content_type: application/zip
