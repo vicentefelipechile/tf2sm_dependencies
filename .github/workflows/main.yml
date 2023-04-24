@@ -23,9 +23,9 @@ jobs:
     - name: Listing all files
       run: ls -gh
     - name: Packing linux
-      run: zip -r tf2sm_dependencies_linux.zip -i ./linux/addons/sourcemods
+      run: zip tf2sm_dependencies_linux.zip ./linux/addons/sourcemods
     - name: Packing windows
-      run: zip -r tf2sm_dependencies_windows.zip -i ./windows/addons/sourcemods
+      run: zip tf2sm_dependencies_windows.zip ./windows/addons/sourcemods
     
     - name: Publicar versión
       id: publicar
