@@ -22,9 +22,9 @@ jobs:
           create_annotated_tag: true
           fetch_all_tags: false
     - name: Packing linux
-      run: cd linux/addons && zip -r tf2sm_dependencies_linux.zip sourcemod && mv tf2sm_dependencies_linux.zip ./../.. && cd ../..
+      run: cd linux && zip -r tf2sm_dependencies_linux.zip addons && mv tf2sm_dependencies_linux.zip ./.. && cd ..
     - name: Packing linux
-      run: cd windows/addons && zip -r tf2sm_dependencies_windows.zip sourcemod && mv tf2sm_dependencies_windows.zip ./../.. && cd ../..
+      run: cd windows && zip -r tf2sm_dependencies_windows.zip addons && mv tf2sm_dependencies_windows.zip ./.. && cd ..
     - name: Listing all files
       run: ls -gh
     
