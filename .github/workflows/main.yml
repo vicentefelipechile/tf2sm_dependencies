@@ -12,21 +12,13 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Incrementar versión
-      uses: mathieudutour/github-tag-action@v6.1
-      id: tag
-      with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          tag_prefix: 'v'
-          default_bump: 'patch'
-          create_annotated_tag: true
-          fetch_all_tags: false
+
     - name: Packing Linux
       run: |
         cd linux
         zip -r tf2sm_dependencies_linux.zip addons
         mv tf2sm_dependencies_linux.zip ./..
-        cd ..
+        cd .. |
     - name: Packing Windows
       run: |
         cd windows
@@ -37,8 +29,17 @@ jobs:
       run: |
         uname -a
         ls -gh
-    
-    - name: Publicar versión
+  
+    - name: Setting Version
+      uses: mathieudutour/github-tag-action@v6.1
+      id: tag
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          tag_prefix: 'v'
+          default_bump: 'patch'
+          create_annotated_tag: true
+          fetch_all_tags: false
+    - name: Publishing
       id: publicar
       uses: actions/create-release@v1.0.0
       env:
@@ -49,7 +50,8 @@ jobs:
         body: Automatized
         draft: false
         prerelease: false
-    - name: Subir archivo Linux
+
+    - name: Uploading Linux Version
       uses: actions/upload-release-asset@v1.0.1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -58,7 +60,8 @@ jobs:
         asset_path: ./tf2sm_dependencies_linux.zip
         asset_name: tf2sm_dependencies_linux.zip
         asset_content_type: application/zip
-    - name: Subir archivo Windows
+
+    - name: Uploading Windows Version
       uses: actions/upload-release-asset@v1.0.1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
