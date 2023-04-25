@@ -18,7 +18,7 @@ jobs:
         cd linux
         zip -r tf2sm_dependencies_linux.zip addons
         mv tf2sm_dependencies_linux.zip ./..
-        cd .. |
+        cd ..
     - name: Packing Windows
       run: |
         cd windows
