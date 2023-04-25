@@ -22,21 +22,21 @@ jobs:
           create_annotated_tag: true
           fetch_all_tags: false
     - name: Packing Linux
-      run:
-        cd linux |
-        zip -r tf2sm_dependencies_linux.zip addons |
-        mv tf2sm_dependencies_linux.zip ./.. |
+      run: |
+        cd linux
+        zip -r tf2sm_dependencies_linux.zip addons
+        mv tf2sm_dependencies_linux.zip ./..
         cd .. |
     - name: Packing Windows
-      run:
-        cd windows |
-        zip -r tf2sm_dependencies_windows.zip addons |
-        mv tf2sm_dependencies_windows.zip ./.. |
-        cd .. |
+      run: |
+        cd windows
+        zip -r tf2sm_dependencies_windows.zip addons
+        mv tf2sm_dependencies_windows.zip ./..
+        cd ..
     - name: Listing all files
-      run:
-        uname -a |
-        ls -gh |
+      run: |
+        uname -a
+        ls -gh
     
     - name: Publicar versión
       id: publicar
