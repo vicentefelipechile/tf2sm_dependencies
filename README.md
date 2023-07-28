@@ -10,7 +10,7 @@ This can help streamline development and maintenance processes, reduce the risk 
 - **[TF2Items](https://forums.alliedmods.net/showthread.php?t=115100)**
 - **[TF2Items - Give Weapon](https://forums.alliedmods.net/showthread.php?t=141962)**
 - **[TF2Items - Extended Stocks](https://forums.alliedmods.net/showthread.php?t=255743)**
-- **[TF2ItemsInfo](https://forums.alliedmods.net/showthread.php?t=182918)** - **[(Fix)](https://forums.alliedmods.net/showpost.php?p=2177564)**
+- ~~**[TF2ItemsInfo](https://forums.alliedmods.net/showthread.php?t=182918)** - **[(Fix)](https://forums.alliedmods.net/showpost.php?p=2177564)**~~
 - **[TF2Item DB](https://forums.alliedmods.net/showthread.php?t=255885)** - **[(Updated DB)](https://forums.alliedmods.net/showpost.php?p=2794711&postcount=176)**
 - **[TF2Attributes](https://forums.alliedmods.net/showthread.php?t=210221)**
 - **[SteamTools](https://forums.alliedmods.net/showthread.php?t=170630)**
@@ -20,6 +20,7 @@ This can help streamline development and maintenance processes, reduce the risk 
 - **[Add Observer Point](https://forums.alliedmods.net/showthread.php?t=81609)**
 - **[SM-TFCustAttr](https://github.com/nosoop/SM-TFCustAttr)**
 - **[SM-TFEconData](https://github.com/nosoop/SM-TFEconData)**
+- **[SendProxy Manager](https://forums.alliedmods.net/showpost.php?p=2134833&postcount=267)**
 
 # Gamedata
 
