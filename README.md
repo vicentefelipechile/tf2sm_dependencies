@@ -1,8 +1,10 @@
 # TF2 Sourcemod Third-party Dependencies
 
-The purpose of the project is to gather all third-party dependencies in order to save time and effort in searching for them. By identifying all the external libraries and frameworks used by the project, developers and system administrators can quickly reference this information without having to spend additional time researching and identifying dependencies on their own.
+**~~The purpose of the project is to gather all third-party dependencies in order to save time and effort in searching for them. By identifying all the external libraries and frameworks used by the project, developers and system administrators can quickly reference this information without having to spend additional time researching and identifying dependencies on their own.~~**
 
-This can help streamline development and maintenance processes, reduce the risk of compatibility issues and security vulnerabilities, and ultimately improve the overall efficiency and effectiveness of the project.
+**~~This can help streamline development and maintenance processes, reduce the risk of compatibility issues and security vulnerabilities, and ultimately improve the overall efficiency and effectiveness of the project.~~**
+
+I have placed all the dependencies here
 
 # Plugins/Extension
 
