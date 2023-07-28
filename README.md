@@ -1,18 +1,31 @@
 # TF2 Sourcemod Third-party Dependencies
 
+## Description
+
 **~~The purpose of the project is to gather all third-party dependencies in order to save time and effort in searching for them. By identifying all the external libraries and frameworks used by the project, developers and system administrators can quickly reference this information without having to spend additional time researching and identifying dependencies on their own.~~**
 
 **~~This can help streamline development and maintenance processes, reduce the risk of compatibility issues and security vulnerabilities, and ultimately improve the overall efficiency and effectiveness of the project.~~**
 
 I have placed all the dependencies here
 
-# Plugins/Extension
+## Plugins/Extension
 
 - **[TF2Utils](https://forums.alliedmods.net/showthread.php?t=338773)**
+  - [Source Code](https://github.com/nosoop/SM-TFUtils)
 - **[TF2Items](https://forums.alliedmods.net/showthread.php?t=115100)**
+  - [Source Code](https://github.com/asherkin/TF2Items)
 - **[TF2Items - Give Weapon](https://forums.alliedmods.net/showthread.php?t=141962)**
+  - [tf2items.givecustom.txt](https://forums.alliedmods.net/attachment.php?attachmentid=76828&d=1289069717)
+  - [tf2items_giveweapon.inc](https://forums.alliedmods.net/attachment.php?attachmentid=78956&d=1358996607)
+  - [tf2items_giveweapon.sp](https://forums.alliedmods.net/attachment.php?attachmentid=79313&d=1385716558)
 - **[TF2Items - Extended Stocks](https://forums.alliedmods.net/showthread.php?t=255743)**
+  - [tf2itemsextended.inc](https://forums.alliedmods.net/attachment.php?attachmentid=141702&d=1421724603)
+  - [tf2itemsinfo.sp](https://forums.alliedmods.net/attachment.php?attachmentid=141703&d=1421724603)
 - ~~**[TF2ItemsInfo](https://forums.alliedmods.net/showthread.php?t=182918)** - **[(Fix)](https://forums.alliedmods.net/showpost.php?p=2177564)**~~
+  - [tf2itemsinfo.sp](https://forums.alliedmods.net/attachment.php?attachmentid=175402&d=1557035452)
+  - [tf2itemsinfo.inc](https://forums.alliedmods.net/attachment.php?attachmentid=175403&d=1557035452)
+  - [tf2itemsinfo.txt](https://forums.alliedmods.net/attachment.php?attachmentid=175404&d=1557035459)
+  - [tf2itemsinfo.sp Memory Leak Fix](https://forums.alliedmods.net/attachment.php?attachmentid=136498&d=1422137064)
 - **[TF2Item DB](https://forums.alliedmods.net/showthread.php?t=255885)** - **[(Updated DB)](https://forums.alliedmods.net/showpost.php?p=2794711&postcount=176)**
 - **[TF2Attributes](https://forums.alliedmods.net/showthread.php?t=210221)**
 - **[SteamTools](https://forums.alliedmods.net/showthread.php?t=170630)**
@@ -24,17 +37,23 @@ I have placed all the dependencies here
 - **[SM-TFEconData](https://github.com/nosoop/SM-TFEconData)**
 - **[SendProxy Manager](https://forums.alliedmods.net/showpost.php?p=2134833&postcount=267)**
 
-# Gamedata
+## Gamedata
 
 - **[Taunt 'em](https://forums.alliedmods.net/showthread.php?t=242866)** - **[(Raw file)](https://raw.githubusercontent.com/FlaminSarge/tf_tauntem/master/tf2.tauntem.txt)**
 - **[TF2 Randomizer](https://forums.alliedmods.net/showthread.php?t=139069)** - **[(Raw file)](https://gist.githubusercontent.com/FlaminSarge/bc0f4e693e3177d92acd964848446fef/raw/663f5a651a4dd59a806c72545c9e829c2e628282/tf2items.randomizer.txt)**
 
-# Include
+## Include
 
 - **[More Colors](https://forums.alliedmods.net/showthread.php?t=185016)** - **[(Raw file)](https://raw.githubusercontent.com/DoctorMcKay/sourcemod-plugins/master/scripting/include/morecolors.inc)**
 - **[Colors](https://forums.alliedmods.net/showthread.php?t=96831)** - **[(Fix)](https://forums.alliedmods.net/showpost.php?p=2793368&postcount=417)** & **[(Raw file)](https://raw.githubusercontent.com/vicentefelipechile/tf2sm_dependencies/main/linux/addons/sourcemod/scripting/include/colors.inc)**
 - **[SteamWorks](https://forums.alliedmods.net/showthread.php?t=229556)** - **[(Raw file)](https://raw.githubusercontent.com/KyleSanderson/SteamWorks/master/Pawn/includes/SteamWorks.inc)**
 
-# Util
+## Util
 
 - **[Name Colors](http://cloford.com/resources/colours/500col.htm)**
+
+# LICENCES
+
+**[Sourcemod License](https://github.com/alliedmodders/sourcemod/blob/master/licenses/LICENSE.txt)**
+
+**[Sourcemod GPLv3](https://github.com/alliedmodders/sourcemod/blob/master/licenses/GPLv3.txt)**
