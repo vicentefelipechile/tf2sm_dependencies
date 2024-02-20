@@ -11,13 +11,11 @@ I have placed all the dependencies here
 ## Plugins/Extension
 
 - **[TF2Utils](https://forums.alliedmods.net/showthread.php?t=338773)**
-  - [Source Code](https://github.com/nosoop/SM-TFUtils)
 - **[TF2Items](https://forums.alliedmods.net/showthread.php?t=115100)**
-  - [Source Code](https://github.com/asherkin/TF2Items)
 - **[TF2Items - Give Weapon](https://forums.alliedmods.net/showthread.php?t=141962)**
 - **[TF2Items - Extended Stocks](https://forums.alliedmods.net/showthread.php?t=255743)**
 - ~~**[TF2ItemsInfo](https://forums.alliedmods.net/showthread.php?t=182918)** - **[(Fix)](https://forums.alliedmods.net/showpost.php?p=2177564)**~~
-- **[TF2Item DB](https://forums.alliedmods.net/showthread.php?t=255885)** - **[(Updated DB)](https://forums.alliedmods.net/showpost.php?p=2794711&postcount=176)**
+- **[TF2Item DB](https://forums.alliedmods.net/showthread.php?t=255885)** - **[(Updated DB)](https://forums.alliedmods.net/showpost.php?p=2818269&postcount=181)**
 - **[TF2Attributes](https://forums.alliedmods.net/showthread.php?t=210221)**
 - **[SteamTools](https://forums.alliedmods.net/showthread.php?t=170630)**
 - **[SteamWorks](https://forums.alliedmods.net/showthread.php?t=229556)** - **[(Windows build)](https://github.com/hexa-core-eu/SteamWorks/releases)**
