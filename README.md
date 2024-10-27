@@ -11,22 +11,11 @@ I have placed all the dependencies here
 ## Plugins/Extension
 
 - **[TF2Utils](https://forums.alliedmods.net/showthread.php?t=338773)**
-  - [Source Code](https://github.com/nosoop/SM-TFUtils)
 - **[TF2Items](https://forums.alliedmods.net/showthread.php?t=115100)**
-  - [Source Code](https://github.com/asherkin/TF2Items)
 - **[TF2Items - Give Weapon](https://forums.alliedmods.net/showthread.php?t=141962)**
-  - [tf2items.givecustom.txt](https://forums.alliedmods.net/attachment.php?attachmentid=76828&d=1289069717)
-  - [tf2items_giveweapon.inc](https://forums.alliedmods.net/attachment.php?attachmentid=78956&d=1358996607)
-  - [tf2items_giveweapon.sp](https://forums.alliedmods.net/attachment.php?attachmentid=79313&d=1385716558)
 - **[TF2Items - Extended Stocks](https://forums.alliedmods.net/showthread.php?t=255743)**
-  - [tf2itemsextended.inc](https://forums.alliedmods.net/attachment.php?attachmentid=141702&d=1421724603)
-  - [tf2itemsinfo.sp](https://forums.alliedmods.net/attachment.php?attachmentid=141703&d=1421724603)
 - ~~**[TF2ItemsInfo](https://forums.alliedmods.net/showthread.php?t=182918)** - **[(Fix)](https://forums.alliedmods.net/showpost.php?p=2177564)**~~
-  - [tf2itemsinfo.sp](https://forums.alliedmods.net/attachment.php?attachmentid=175402&d=1557035452)
-  - [tf2itemsinfo.inc](https://forums.alliedmods.net/attachment.php?attachmentid=175403&d=1557035452)
-  - [tf2itemsinfo.txt](https://forums.alliedmods.net/attachment.php?attachmentid=175404&d=1557035459)
-  - [tf2itemsinfo.sp Memory Leak Fix](https://forums.alliedmods.net/attachment.php?attachmentid=136498&d=1422137064)
-- **[TF2Item DB](https://forums.alliedmods.net/showthread.php?t=255885)** - **[(Updated DB)](https://forums.alliedmods.net/showpost.php?p=2794711&postcount=176)**
+- **[TF2Item DB](https://forums.alliedmods.net/showthread.php?t=255885)** - **[(Updated DB)](https://forums.alliedmods.net/showpost.php?p=2818269&postcount=181)**
 - **[TF2Attributes](https://forums.alliedmods.net/showthread.php?t=210221)**
 - **[SteamTools](https://forums.alliedmods.net/showthread.php?t=170630)**
 - **[SteamWorks](https://forums.alliedmods.net/showthread.php?t=229556)** - **[(Windows build)](https://github.com/hexa-core-eu/SteamWorks/releases)**
